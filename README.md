@@ -18,7 +18,7 @@ Run the following commands:
         npm run clean       // to clean the ouput directory
         npm run build:dev   // build the source code inside 'dist' directory.
         npm run serve       // host the 'dist' on a web server at port 3000 (default)
-        npm start           // start the development cycle (build t he code, serve it and watch for changes)
+        npm start           // start the development cycle (build the code, serve it and watch for changes)
 
 NOTE: In order to live reload the extension in chrome, the project used `chromereload.js` script which makes a
 websocket connection with livereload server running and watch for 'reload' command. Make sure to remove this file
